@@ -18,63 +18,63 @@
 
   <!-- Create your table below -->
   <table>
-   <tr>
-     <th scope="col">ID</th>
-     <th scope="col">NAME</th>
-     <th scope="col">EMAİL</th>
-     <th scope="col">MOBİLE PHONE</th>
-     <th scope="col">ADDRESS</th>
-   </tr>
-   <tr>
+    <thead>
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">NAME</th>
+        <th scope="col">EMAİL</th>
+        <th scope="col">MOBİLE PHONE</th>
+        <th scope="col">ADDRESS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
      <th scope="row">01</th>
      <td>Evan Sullivan</td>
      <td>evansullivan@gmail.com</td>
      <td>1234567890</td>
      <td>2715 Westheimer</td>
-   </tr>
-   <tr>
+      </tr>
+      <tr>
      <th scope="row">02</th>
      <td>Irma Morris</td>
      <td>ırmamorris@gmail.com</td>
      <td>1234567890</td>
      <td>2715 Westheimer</td>
      
-   </tr>
-   <tr>
+      </tr>
+      <tr>
      <th scope="row">03</th>
      <td>Stephani Kuhn</td>
      <td>st@gmail.com</td>
      <td>1234567890</td>
-     <td></td>
-   </tr>
-   <tr>
+     <td rowspan="2"></td>
+      </tr>
+      <tr>
      <th scope="row">04</th>
      <td>Kevin Diaz</td>
      <td>kd@gmail.com</td>
      <td>1234567890</td>
-     <td></td>
-   </tr>
-   <tr>
-     <th scope="row">05</th>
-     <td>Riley Gordon</td>
+      </tr>
+      <tr>
+     <th rowspan="2" scope="row">05</th>
+     <td rowspan="2">Riley Gordon</td>
      <td>rd@gmail.com</td>
      <td>1234567890</td>
      <td>9335</td>
-   </tr>
-   <tr>
-     <td></td>
-     <td></td>
+      </tr>
+      <tr>
      <td>rgrdn@gmail.com</td>
      <td>1234567890</td>
      <td>1633</td>
-   </tr>
-   <tr>
-     <td></td>
-     <td></td>
-     <td></td>
-     <th>Total Contacts:</th>
-     <td>5</td>
-   </tr>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th scope="row" colspan="4">Total Contacts:</th>
+        <td>5</td>
+      </tr>
+    </tfoot>
   </table>
 
 </body>
